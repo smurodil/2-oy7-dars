@@ -1,0 +1,90 @@
+body {
+    background-color: #f4d04e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 24px;
+    width: 360px;
+    box-shadow: 8px 8px 0px 0px #000;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+ 
+  .card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+  }
+  
+  
+  .card-tag {
+    background-color: #f4d04e;
+    color: #111;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 12px;
+  }
+  
+ 
+  .card-date {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: 800;
+    color: #111;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .card-title:hover {
+    color: #f4d04e;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #7f7f7f;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  
+  
+  .card-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .author-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .author-name {
+    font-weight: 800;
+    font-size: 14px;
+    color: #111;
+  }
+  
